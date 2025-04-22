@@ -1,18 +1,7 @@
-|Build| |Group| |PyVersion| |Status| |PyPiVersion| |License| |Downloads| |Docs|
 
-Notice
-============
+IBKR_Trading_API
+------------
 
-::
-
-  Unfortunately, our dear brother Ewald de Wit passed away monday, March eleven as a result of a serious illness last year.
-  Although we were not involved in his activities on this platform, we felt the due to inform you. 
-  We thank you for knowing him.
-
-  Maritza and Philippe de Wit
-
-Introduction
-============
 
 The goal of the IB-insync library is to make working with the
 `Trader Workstation API <http://interactivebrokers.github.io/tws-api/>`_
@@ -35,6 +24,9 @@ Be sure to take a look at the
 the `recipes <https://ib-insync.readthedocs.io/recipes.html>`_
 and the `API docs <https://ib-insync.readthedocs.io/api.html>`_.
 
+Spoof detector
+------------
+Visualizes the bid and ask orders and sales in single window with different type of charts. Run `python spoof_detector/spoof_detector.py --help`. You will see all the options
 
 Installation
 ------------
@@ -94,53 +86,4 @@ The complete `API documentation <https://ib-insync.readthedocs.io/api.html>`_.
 
 `Changelog <https://ib-insync.readthedocs.io/changelog.html>`_.
 
-Discussion
-----------
 
-The `insync user group <https://groups.io/g/insync>`_ is the place to discuss
-IB-insync and anything related to it.
-
-Disclaimer
-----------
-
-The software is provided on the conditions of the simplified BSD license.
-
-This project is not affiliated with Interactive Brokers Group, Inc.'s.
-
-Good luck and enjoy,
-
-:author: Ewald de Wit <ewald.de.wit@gmail.com>
-
-.. _`Interactive Brokers Python API`: http://interactivebrokers.github.io
-
-.. |Group| image:: https://img.shields.io/badge/groups.io-insync-green.svg
-   :alt: Join the user group
-   :target: https://groups.io/g/insync
-
-.. |PyPiVersion| image:: https://img.shields.io/pypi/v/ib_insync.svg
-   :alt: PyPi
-   :target: https://pypi.python.org/pypi/ib_insync
-
-.. |CondaVersion| image:: https://img.shields.io/conda/vn/conda-forge/ib-insync.svg
-   :alt: Conda
-   :target: https://anaconda.org/conda-forge/ib-insync
-
-.. |PyVersion| image:: https://img.shields.io/badge/python-3.6+-blue.svg
-   :alt:
-
-.. |Status| image:: https://img.shields.io/badge/status-beta-green.svg
-   :alt:
-
-.. |License| image:: https://img.shields.io/badge/license-BSD-blue.svg
-   :alt:
-
-.. |Docs| image:: https://img.shields.io/badge/Documentation-green.svg
-   :alt: Documentation
-   :target: https://ib-insync.readthedocs.io/api.html
-
-.. |Downloads| image:: https://static.pepy.tech/badge/ib-insync
-   :alt: Number of downloads
-   :target: https://pepy.tech/project/ib-insync
-
-.. |Build| image:: https://github.com/erdewit/ib_insync/actions/workflows/test.yml/badge.svg?branch=master
-   :target: https://github.com/erdewit/ib_insync/actions
