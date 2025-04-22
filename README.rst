@@ -1,4 +1,3 @@
-|Build| |Group| |PyVersion| |Status| |PyPiVersion| |License| |Docs|
 
 IBKR_Trading_API
 ------------
@@ -28,10 +27,6 @@ and the `API docs <https://ib-insync.readthedocs.io/api.html>`_.
 Spoof detector
 ------------
 Visualizes the bid and ask orders and sales in single window with different type of charts. Run `python spoof_detector/spoof_detector.py --help`. You will see all the options
-
-![alt text](docs/lineplot.png)
-
-![alt text](docs/heatmap.png)
 
 Installation
 ------------
