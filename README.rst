@@ -23,10 +23,34 @@ Be sure to take a look at the
 `notebooks <https://ib-insync.readthedocs.io/notebooks.html>`_,
 the `recipes <https://ib-insync.readthedocs.io/recipes.html>`_
 and the `API docs <https://ib-insync.readthedocs.io/api.html>`_.
+ 
+Configure IBKR Trade Workstation API
+------------
+
+.. image:: docs/IBKR-TWS-GlobalConfiguration-API-Settings.png
+   :alt: Screenshot of the project in action
+   :width: 600px
+   :align: center
+
+.. image:: docs/IBKR-TWS-GlobalConfiguration-API-Settings-Demo.png
+   :alt: Screenshot of the project in action
+   :width: 600px
+   :align: center
+
 
 Spoof detector
 ------------
 Visualizes the bid and ask orders and sales in single window with different type of charts. Run `python spoof_detector/spoof_detector.py --help`. You will see all the options
+
+.. image:: docs/lineplot.png
+   :alt: Screenshot of the project in action
+   :width: 600px
+   :align: center
+
+.. image:: docs/heatmap.png
+   :alt: Screenshot of the project in action
+   :width: 600px
+   :align: center
 
 Installation
 ------------
